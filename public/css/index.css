@@ -3,12 +3,17 @@ body {
     margin: 0;
     padding: 0;
     background: #f4f4f4;
-    color: #222;
+    background-image: url('../png/France.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #000000;
 }
 header {
     background: #003366;
     color: #fff;
-    padding: 1.5rem 0 1rem 0;
+    padding: 1.5rem 3% 1rem 3%;
     text-align: center;
 }
 header h1 {
@@ -34,14 +39,24 @@ nav a:hover {
     color: #ffcc00;
 }
 main {
-    max-width: 700px;
-    margin: 2rem auto;
-    background: #fff;
+    display: flex;
+    flex-direction: column;
+    max-width: 92%;
+    margin: 2rem 4% 5rem 4%;
+    background: #ffffffaa;
     padding: 2rem;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.07);
 }
-.intro {
+main a {
+    color: #990000;
+    text-decoration: none;
+}
+main a:hover {
+    color: #0f0fff;
+    text-decoration: underline;
+}
+main section h2 {
     text-align: center;
 }
 footer {
@@ -53,6 +68,7 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
 @media (max-width: 600px) {
     main {
         padding: 1rem;
