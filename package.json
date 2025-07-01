@@ -1,0 +1,17 @@
+{
+  "name": "ensemble-pour-la-france",
+  "version": "1.0.0",
+  "description": "Le gouvernement français, comme tout système, est loin d'être parfait. Trop de décisions sont prises d'une façon déconnectée du terrain, ou restent figées face aux défis actuels : climat, justice sociale, éducation, sécurité, santé, numérique… Rejoignez-nous pour construire un avenir meilleur.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "console-x1",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dependance-affichage": "^1.2.0",
+    "express": "^5.1.0"
+  }
+}
