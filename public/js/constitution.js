@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", async function() {
     texte = texte.replace('ARTICLE PREMIER', '<strong>ARTICLE PREMIER</strong>');
     texte = texte.replace(/(ARTICLE [1-9][0-9]*(-[1-9][0-9]*)?)/g, "<br><strong>$1</strong>");
 
-    // Mis à jour le : 9 mai 2025
     texte = texte.replace(/(Mis à jour le : [0-9]+ [a-zéû]+ [0-9]+)/, '<br><em>$1</em>');
 
     texte = texte.replace(/(\n)/g, "<br>");
