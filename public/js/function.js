@@ -44,6 +44,38 @@ async function code_de_l_education() {
     codeText.innerHTML = texte;
 };
 
+
+async function toggleTheme() {
+    if (localStorage.getItem('termsAccepted') === 'true') localStorage.setItem("theme", localStorage.getItem("theme") === "dark" ? "light" : "dark");
+
+    if (localStorage.getItem("theme") === "dark" || (!localStorage.getItem("theme") && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+        darkSwitch("add");
+    } else if (localStorage.getItem("theme") === "light") {
+        darkSwitch("remove");
+    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        darkSwitch("add");
+    } else {
+        darkSwitch("remove");
+    }
+}
+
+async function darkSwitch(action) {
+   const main = await getClass("main");
+   const main2 = await getClass("main2");
+
+   main[action]("dark-theme");
+   main2[action]("dark-theme");
+}
+
+async function getClass(id) {
+    const element = document.getElementById(id);
+    if (!element) {
+        console.error(`Element with id ${id} not found`);
+        return null;
+    }
+    return element.classList;
+}
+
 async function declineTerms() {
     window.history.back();
 }

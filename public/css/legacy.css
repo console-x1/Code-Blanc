@@ -10,7 +10,8 @@ a {
 }
 
 .modal {
-    padding: 15px;
+    padding: 4%;
+    padding-bottom: 0;
 }
 
 .modal-container {
@@ -79,56 +80,6 @@ a {
     overflow-y: auto;
 }
 
-.rtf h1,
-.rtf h2,
-.rtf h3,
-.rtf h4,
-.rtf h5,
-.rtf h6 {
-    font-weight: 700;
-}
-
-.rtf h1 {
-    font-size: 1.5rem;
-    line-height: 1.125;
-}
-
-.rtf h2 {
-    font-size: 1.25rem;
-    line-height: 1.25;
-}
-
-.rtf h3 {
-    font-size: 1rem;
-    line-height: 1.5;
-}
-
-.rtf>*+* {
-    margin-top: 1em;
-}
-
-.rtf>*+ :is(h1, h2, h3) {
-    margin-top: 2em;
-}
-
-.rtf> :is(h1, h2, h3)+* {
-    margin-top: 0.75em;
-}
-
-.rtf ul,
-.rtf ol {
-    margin-left: 20px;
-    list-style-position: inside;
-}
-
-.rtf ol {
-    list-style: numeric;
-}
-
-.rtf ul {
-    list-style: disc;
-}
-
 .modal-container-footer {
     padding: 20px 0px;
     display: flex;
@@ -170,6 +121,9 @@ a {
 .button.is-ghost:hover,
 .button.is-ghost:focus {
     background-color: #dfdad7;
+}
+.button.is-ghost.dark-theme {
+    background-color: #3a3a3a;
 }
 
 .button.is-primary {
