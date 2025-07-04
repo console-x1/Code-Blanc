@@ -32,14 +32,6 @@ app.get('/index',  (req, res) => {
     res.sendFile(path.join(PUBLIC_DIR, 'index.html'));
 });
 
-app.get('/constitution',  (req, res) => {
-    res.sendFile(path.join(PUBLIC_DIR, 'constitution.html'));
-});
-
-app.get('/code-de-l-education', (req, res) => {
-    res.sendFile(path.join(PUBLIC_DIR, 'code-de-l-education.html'));
-})
-
 app.listen(PORT, () => {
     console.log(`Serveur Node.js - Site Ensemble-pour-la-France lancé sur le port n°${PORT}`.blue);
 }); 

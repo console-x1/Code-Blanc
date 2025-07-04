@@ -28,14 +28,15 @@ nav ul {
     justify-content: center;
     gap: 2rem;
 }
-nav a {
+nav ul li p {
+    margin: 0;
     color: #fff;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.1rem;
-    transition: color 0.2s;
+    transition: color 0.5s;
 }
-nav a:hover {
+nav ul li p:hover {
     color: #ffcc00;
 }
 main {
@@ -68,8 +69,23 @@ footer {
     width: 100%;
     bottom: 0;
 }
+footer a {
+    margin: 0;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.5s;
+}
+footer a:hover {
+    color: #ffcc00;
+}
 
-@media (max-width: 600px) {
+.hide {
+    display: none;
+}
+
+@media (max-width: 800px) {
     main {
         padding: 1rem;
     }

@@ -4,9 +4,8 @@ Le gouvernement français, comme tout système, est loin d'être parfait. Trop d
 
 🎯 Le but de cette communauté n’est pas de critiquer pour critiquer. Nous voulons réfléchir ensemble à des solutions concrètes, appuyées sur des faits, des témoignages, des idées solides…
 
-🔧 Ce que nous mettons en place :
-- 🧠 Des espaces thématiques : éducation, écologie, économie, justice, santé, etc.
-- 🗳️ Un système de vote à la majorité absolue pour prioriser les idées.
+🔧 Nos actions :
+- Nous réécrivons certains textes de lois, vous les retrouverez sur ce site !
 
 💬 Que tu sois étudiant, salarié, entrepreneur, fonctionnaire ou sans emploi : ta voix compte. On veut bâtir une force citoyenne qui ne se contente plus d’attendre. On propose. On agit.
 

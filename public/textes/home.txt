@@ -1,0 +1,40 @@
+<section>
+    <h2>Bienvenue</h2>
+    <p>Nous avons créé ce site afin de vous partager nos projets de lois. L'objectif est de reunir suffisament
+        de voix pour pouvoir être entendu à l'Elysée. Nous sommes ouverts à tout avis depuis <a
+            href="https://discord.gg/tQU6JvHsP7">notre serveur discord</a>.</p>
+</section>
+<section>
+    <h2>Explication</h2>
+    <p>
+        Le gouvernement français, comme tout système, est loin d'être parfait. Trop de décisions sont prises
+        d'une façon déconnectée du terrain, ou restent figées face aux défis actuels : climat, justice sociale,
+        éducation, sécurité, santé, numérique…<br>
+        <br>
+        Le but de cette communauté n’est pas de critiquer pour critiquer. Nous voulons réfléchir ensemble à
+        des solutions concrètes, appuyées sur des faits, des témoignages, des idées solides…<strong>Et pour ça,
+        nous avons commencé à réécrire certains textes de lois !</strong><br>
+        <br>
+        Ce que nous mettons en place :<br>
+        <ul>
+            <li>Des espaces thématiques : éducation, écologie, économie, justice, santé, etc.<br></li>
+            <li>Un système de vote à la majorité absolue pour prioriser les idées.<br></li>
+        </ul>
+        <br>
+        Que tu sois étudiant, salarié, entrepreneur, fonctionnaire ou sans emploi : ta voix compte. On veut
+        bâtir une force citoyenne qui ne se contente plus d’attendre. On propose. On agit.<br>
+        <br>
+        Rejoins nous, propose, débat, et construisons ensemble quelque chose de solide.
+    </p>
+</section>
+<section>
+    <h2>Contact</h2>
+    <p>
+        Pour toute question ou suggestion, n'hésitez pas à nous contacter via
+        <a href="https://discord.gg/tQU6JvHsP7">notre serveur Discord
+        </a>.
+    </p>
+    <h2 style="margin-bottom: 0px;"><iframe src="https://ptb.discord.com/widget?id=1227590623167774881&amp;"
+            style="border-radius: 35px;" width="97%" height="70" allowtransparency="true" frameborder="0"
+            sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></h2>
+</section>

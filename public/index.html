@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ensemble pour la France</title>
-    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/legacy.css">
 </head>
 
 <body>
@@ -13,56 +14,106 @@
         <h1>Ensemble pour la France</h1>
         <nav>
             <ul>
-                <li><a href="/constitution">Constitution</a></li>
-                <li><a href="/code-de-l-education">Code de l'éducation</a></li>
+                <li>
+                    <p onclick="home()">Accueil</p>
+                </li>
+                <li>
+                    <p onclick="constitution()">Constitution</p>
+                </li>
+                <li>
+                    <p onclick="code_de_l_education()">Code de l'éducation</p>
+                </li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
-            <h2>Bienvenue</h2>
-            <p>Nous avons créé ce site afin de vous partager nos projets de lois. L'objectif est de reunir suffisament
-                de voix pour pouvoir être entendu à l'Elysée. Nous sommes ouverts à tout avis depuis <a
-                    href="https://discord.gg/tQU6JvHsP7">notre serveur discord</a>.</p>
-        </section>
-        <section>
-            <h2>Explication</h2>
-            <p>
-                Le gouvernement français, comme tout système, est loin d'être parfait. Trop de décisions sont prises
-                d'une façon déconnectée du terrain, ou restent figées face aux défis actuels : climat, justice sociale,
-                éducation, sécurité, santé, numérique…<br>
-                <br>
-                🎯 Le but de cette communauté n’est pas de critiquer pour critiquer. Nous voulons réfléchir ensemble à
-                des solutions concrètes, appuyées sur des faits, des témoignages, des idées solides…<strong>Et pour ça,
-                    nous avons commencé à réécrire certains textes de lois !</strong><br>
-                <br>
-                🔧 Ce que nous mettons en place :<br>
-            <ul>
-                <li>🧠 Des espaces thématiques : éducation, écologie, économie, justice, santé, etc.<br></li>
-                <li>🗳️ Un système de vote à la majorité absolue pour prioriser les idées.<br></li>
-            </ul>
-            <br>
-            💬 Que tu sois étudiant, salarié, entrepreneur, fonctionnaire ou sans emploi : ta voix compte. On veut
-            bâtir une force citoyenne qui ne se contente plus d’attendre. On propose. On agit.<br>
-            <br>
-            👥 Rejoins nous, propose, débat, et construisons ensemble quelque chose de solide.
-            </p>
-        </section>
-        <section>
-            <h2>Contact</h2>
-            <p>
-                Pour toute question ou suggestion, n'hésitez pas à nous contacter via
-                <a href="https://discord.gg/tQU6JvHsP7">notre serveur Discord
-                </a>.
-            </p>
-            <h2 style="margin-bottom: 0px;"><iframe src="https://ptb.discord.com/widget?id=1227590623167774881&amp;"
-                    style="border-radius: 35px;" width="97%" height="70" allowtransparency="true" frameborder="0"
-                    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></h2>
-        </section>
+    <main id="main">
     </main>
+
+    <div class="modal">
+        <article class="modal-container">
+            <header class="modal-container-header">
+                <span class="modal-container-title">
+                    <svg aria-hidden="true" height="24" width="24" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0h24v24H0z" fill="none"></path>
+                        <path
+                            d="M14 9V4H5v16h6.056c.328.417.724.785 1.18 1.085l1.39.915H3.993A.993.993 0 0 1 3 21.008V2.992C3 2.455 3.449 2 4.002 2h10.995L21 8v1h-7zm-2 2h9v5.949c0 .99-.501 1.916-1.336 2.465L16.5 21.498l-3.164-2.084A2.953 2.953 0 0 1 12 16.95V11zm2 5.949c0 .316.162.614.436.795l2.064 1.36 2.064-1.36a.954.954 0 0 0 .436-.795V13h-5v3.949z"
+                            fill="currentColor"></path>
+                    </svg>
+                    CONDITIONS GÉNÉRALES D’UTILISATION (CGU)
+                </span>
+
+            </header>
+            <section class="modal-container-body rtf">
+                <em>Dernière mise à jour : 4 juillet 2025</em>
+                <br>
+                En accédant au site Ensemble pour la France, vous acceptez sans réserve les présentes conditions
+                générales d’utilisation. Si vous n’acceptez pas tout ou partie de ces conditions, veuillez ne pas
+                utiliser ce site.<br>
+                <br>
+                1. OBJET DU SITE<br>
+                Le site Ensemble pour la France est une plateforme destinée à diffuser, promouvoir et expérimenter un
+                nouveau modèle éducatif fondé sur le bien-être, l’utilité concrète des apprentissages et le
+                développement harmonieux de chaque individu.<br>
+                <br>
+                2. ACCÈS AU SITE<br>
+                L’accès au site est libre et ouvert à tous. Le site se réserve le droit de restreindre l’accès à
+                certains services à tout moment, sans préavis.<br>
+                <br>
+                3. PROPRIÉTÉ INTELLECTUELLE<br>
+                Tous les contenus présents sur le site (textes, articles, chartes, visuels, codes, etc.) sont protégés
+                par le droit d’auteur. Sauf mention contraire, ils sont la propriété exclusive d'Ensemble pour la
+                France. Toute reproduction, diffusion ou exploitation sans autorisation écrite est interdite.<br>
+                <br>
+                4. UTILISATION DES CONTENUS<br>
+                Les utilisateurs sont autorisés à consulter, télécharger ou imprimer les contenus du site pour un usage
+                strictement personnel, éducatif ou non commercial. Toute utilisation à des fins commerciales ou de
+                modification du contenu sans autorisation est interdite.<br>
+                <br>
+                5. DONNÉES PERSONNELLES<br>
+                Le site ne collectera jamais vos données personnelles.<br>
+                <br>
+                6. RESPONSABILITÉ<br>
+                Le site s’efforce de fournir des informations exactes et à jour. Toutefois, il ne saurait être tenu
+                responsable d’erreurs, d’omissions ou de dysfonctionnements. L’utilisateur reste seul responsable de
+                l’usage qu’il fait du contenu proposé.<br>
+                <br>
+                7. MODIFICATIONS DES CONDITIONS<br>
+                Les présentes conditions peuvent être modifiées à tout moment. L’utilisateur est invité à les consulter
+                régulièrement. L’utilisation continue du site après modification constitue une acceptation tacite des
+                nouvelles conditions.<br>
+                <br>
+                8. DROIT APPLICABLE<br>
+                Les présentes CGU sont soumises au droit français. En cas de litige, les tribunaux compétents seront
+                ceux du ressort de Paris.<br>
+                <br>
+                9. CONTACT<br>
+                Pour toute question relative à ces conditions, vous pouvez contacter l’équipe via : <a
+                    href="https://discord.gg/tQU6JvHsP7">notre serveur Discord</a>.
+
+            </section>
+            <footer class="modal-container-footer">
+                <button class="button is-ghost" onclick="declineTerms()">Decline</button>
+                <button class="button is-primary" onclick="acceptTerms()">Accept</button>
+            </footer>
+        </article>
+    </div>
+
     <footer>
         <nav><a href="https://discord.gg/tQU6JvHsP7">Ensemble pour la France</a></nav>
     </footer>
+
+    <script src="js/pages.js"></script>
+    <script>
+        if (localStorage.getItem("termsAccepted") !== "true") {
+            document.querySelector(".modal").classList.remove("hide");
+            document.getElementById("main").classList.add("hide");
+        } else {
+            document.getElementById("main").classList.remove("hide");
+            document.querySelector(".modal").classList.add("hide");
+            home();
+        }
+    </script>
 </body>
 
 </html>
