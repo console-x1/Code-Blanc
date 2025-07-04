@@ -50,7 +50,7 @@ main {
     flex-direction: column;
     max-width: 92%;
     margin: 2rem 4% 5rem 4%;
-    background: #ffffffaa;
+    background: #ffffff77;
     padding: 2rem;
     border-radius: 15px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
@@ -137,7 +137,7 @@ footer a:hover {
 }
 
 .dark-theme {
-    background-color: #000000aa;
+    background-color: #00000088;
     color: #ffffff;
 }
 
