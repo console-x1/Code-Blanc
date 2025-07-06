@@ -12,15 +12,15 @@ async function constitution() {
 
     texte = texte.replace('PRÉAMBULE', '\n<h2>PRÉAMBULE</h2>');
 
-    texte = texte.replace('Titre premier - DE LA SOUVERAINETÉ', '\n\n<h2>Titre premier - DE LA SOUVERAINETÉ</h2>');
-    texte = texte.replace(/(Titre [IVXLC]+\s*-\s*[^\n]+)/g, "\n\n<h2>$1</h2>");
+    texte = texte.replace('Titre premier - DE LA SOUVERAINETÉ', '<section id="titreI">\n\n<h2>Titre premier - DE LA SOUVERAINETÉ</h2></section>');
+    texte = texte.replace(/(Titre) ([IVXLC]+)\s*-\s*([^\n]+)/g, '<section id="$1$2">\n\n<h2>$1 $2 - $3</h2></section>');
 
-    texte = texte.replace('ARTICLE PREMIER', '<strong>ARTICLE PREMIER</strong>');
-    texte = texte.replace(/(ARTICLE [1-9][0-9]*(-[1-9][0-9]*)?)/g, "<br><strong>$1</strong>");
+    texte = texte.replace('ARTICLE PREMIER', '<section id="articleI"><strong>ARTICLE PREMIER</strong></section>');
+    texte = texte.replace(/(ARTICLE) ([1-9][0-9]*(-[1-9][0-9]*)?)/g, '<section id="$1$2"><br><strong>$1 $2</strong></section>');
 
     texte = texte.replace(/(Mis à jour le : [0-9]+ [a-zéû]+ [0-9]+)/, '<br><em>$1</em>');
 
-    texte = texte.replace(/(\n)/g, "<br>");
+    texte = texte.replace(/(\n)/g, '<br>');
     constitutionText.innerHTML = texte;
 };
 
@@ -32,11 +32,11 @@ async function code_de_l_education() {
 
     texte = texte.replace('PRÉAMBULE', '\n<h2>PRÉAMBULE</h2>');
 
-    texte = texte.replace('Titre premier - PRINCIPES GÉNÉRAUX', '\n\n<h2>Titre premier - PRINCIPES GÉNÉRAUX</h2>');
-    texte = texte.replace(/(Titre [IVXLC]+\s*-\s*[^\n]+)/g, "\n\n<h2>$1</h2>");
+    texte = texte.replace('Titre premier - PRINCIPES GÉNÉRAUX', '<section id="titreI">\n\n<h2>Titre premier - PRINCIPES GÉNÉRAUX</h2></section>');
+    texte = texte.replace(/(Titre) ([IVXLC]+)\s*-\s*([^\n]+)/g, '<section id="$1$2">\n\n<h2>$1 $2 - $3</h2></section>');
 
-    texte = texte.replace('ARTICLE PREMIER', '<strong>ARTICLE PREMIER</strong>');
-    texte = texte.replace(/(ARTICLE [1-9][0-9]*(-[1-9][0-9]*)?)/g, "<br><strong>$1</strong>");
+    texte = texte.replace('ARTICLE PREMIER', '<section id="articleI"><strong>ARTICLE PREMIER</strong></section>');
+    texte = texte.replace(/(ARTICLE) ([1-9][0-9]*(-[1-9][0-9]*)?)/g, '<section id="$1$2"><br><strong>$1 $2</strong></section>');
 
     texte = texte.replace(/(Mis à jour le : [0-9]+ [a-zéû]+ [0-9]+)/, '<br><em>$1</em>');
 

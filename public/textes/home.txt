@@ -41,6 +41,6 @@
             frameborder="0"
             sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
         </iframe>
-        <a href="https://discord.gg/tQU6JvHsP7" target="_blank">Redirection</a>
+        <a href="https://discord.gg/tQU6JvHsP7" target="_blank"></a>
     </div>
 </section>
