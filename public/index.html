@@ -197,12 +197,17 @@
 
         } else {
 
-            home();
             document.querySelector(".modal").classList.add("hide");
             document.getElementById("main").classList.remove("hide");
             document.getElementById("main2").classList.remove("hide");
-
+            
+            if (localStorage.getItem("oldPage")) {
+                EncodeDecode(localStorage.getItem("oldPage"));
+            }
         }
+        window.onload(
+            
+        )
 
     </script>
 

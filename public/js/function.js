@@ -1,4 +1,5 @@
 async function home() {
+    localStorage.setItem("oldPage", "01101000011011110110110101100101");
     const homeText = document.getElementById("main");
     let texte = await (await fetch("../textes/home.txt")).text();
     homeText.innerHTML = texte;
@@ -7,6 +8,7 @@ async function home() {
 };
 
 async function constitution() {
+    localStorage.setItem("oldPage", "011000110110111101101110011100110111010001101001011101000111010101110100011010010110111101101110");
     document.getElementById("MenuScrollEntier").classList.remove("hide");
     const constitutionText = document.getElementById("main");
     let texte = "<section class=\"article-content\"><h2>Texte de la Constitution</h2><p id=\"constitution-text\">"
@@ -36,6 +38,7 @@ async function constitution() {
 };
 
 async function code_de_l_education() {
+    localStorage.setItem("oldPage", "011001010110010001110101011000110110000101110100011010010110111101101110");
     document.getElementById("MenuScrollEntier").classList.remove("hide");
     const codeText = document.getElementById("main");
     let texte = "<section class=\"article-content\"><h2>Texte du Code de l'Éducation</h2><p id=\"code-text\">"
@@ -102,4 +105,22 @@ async function declineTerms() {
 async function acceptTerms() {
     localStorage.setItem("termsAccepted", "true");
     window.location.reload();
+}
+
+//////////////////////////////// encodé ////////////////////////////////
+
+async function EncodeDecode(input) {
+    const cleanInput = input.trim();
+
+    const isBinary = /^[01\s]+$/.test(cleanInput) && cleanInput.replace(/\s/g, '').length % 8 === 0;
+
+    if (isBinary) {
+        const output = cleanInput.match(/[01]{8}/g).map(bin => String.fromCharCode(parseInt(bin, 2))).join('');
+        console.log(output)
+        if (output === "home") {home()} else if (output === "constitution") {constitution()} else if (output === "education") {code_de_l_education()}
+        // return output
+    } else {
+        const output = input.split('').map(char => char.charCodeAt(0).toString(2).padStart(8, '0')).join(' ');
+        // return output
+    }
 }
