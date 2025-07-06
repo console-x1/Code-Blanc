@@ -468,7 +468,7 @@ ARTICLE 88-6.
 L'Assemblée nationale ou le Sénat peuvent émettre un avis motivé sur la conformité d'un projet d'acte législatif européen au principe de subsidiarité. L'avis est adressé par le président de l'assemblée concernée aux présidents du Parlement européen, du Conseil et de la Commission européenne. Le Gouvernement en est informé.
 Chaque assemblée peut former un recours devant la Cour de justice de l'Union européenne contre un acte législatif européen pour violation du principe de subsidiarité. Ce recours est transmis à la Cour de justice de l'Union européenne par le Gouvernement.
 À cette fin, des résolutions peuvent être adoptées, le cas échéant en dehors des sessions, selon des modalités d'initiative et de discussion fixées par le règlement de chaque assemblée. À la demande de soixante députés ou de soixante sénateurs, le recours est de droit.
-ARTICLE 88-7
+ARTICLE 88-7.
 Par le vote d'une motion adoptée en termes identiques par l'Assemblée nationale et le Sénat, le Parlement peut s'opposer à une modification des règles d'adoption d'actes de l'Union européenne dans les cas prévus, au titre de la révision simplifiée des traités ou de la coopération judiciaire civile, par le traité sur l'Union européenne et le traité sur le fonctionnement de l'Union européenne, tels qu'ils résultent du traité signé à Lisbonne le 13 décembre 2007.
 Titre XVI - DE LA RÉVISION
 ARTICLE 89.
@@ -477,4 +477,4 @@ Le projet ou la proposition de révision doit être examiné dans les conditions
 Toutefois, le projet de révision n'est pas présenté au référendum lorsque le Président de la République décide de le soumettre au Parlement convoqué en Congrès ; dans ce cas, le projet de révision n'est approuvé que s'il réunit la majorité des trois cinquièmes des suffrages exprimés. Le bureau du Congrès est celui de l'Assemblée nationale.
 Aucune procédure de révision ne peut être engagée ou poursuivie lorsqu'il est porté atteinte à l'intégrité du territoire.
 La forme républicaine du Gouvernement ne peut faire l'objet d'une révision.
-Mis à jour le : 9 mai 2025
+Mis à jour le : 9 mai 2025 

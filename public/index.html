@@ -148,6 +148,13 @@
 
     <footer>
         <nav><a href="https://discord.gg/tQU6JvHsP7">Ensemble pour la France</a></nav>
+
+        <div id="MenuScrollEntier">
+            <label for="menuScroll">Aller à une section :</label>
+            <select id="menuScroll">
+                <option value="">-~- Choisissez une section -~-</option>
+            </select>
+        </div>
     </footer>
 
     <script src="js/function.js"></script>
@@ -198,6 +205,45 @@
         }
 
     </script>
+
+<script>
+  function genererMenuDeroulant() {
+    const select = document.getElementById("menuScroll");
+    if (!select) return;
+
+    select.innerHTML = '<option value="">-~- Choisissez une section -~-</option>';
+
+    const elements = Array.from(document.querySelectorAll("*[id]"))
+      .filter(el => 
+        el.id.match(/^titre[IVXLCDM]+$/i) || // Titres en chiffres romains
+        el.id.match(/^article[\w\.\-]+$/i)   // Articles avec chiffres, points, etc.
+      );
+
+    elements.forEach(el => {
+      const option = document.createElement("option");
+      option.value = el.id;
+
+      // Texte visible (sans point final)
+      let label = el.textContent.trim();
+      if (label.endsWith(".")) {
+        label = label.slice(0, -1);
+      }
+
+      option.textContent = label.substring(0, 50) || el.id;
+      select.appendChild(option);
+    });
+
+    select.addEventListener("change", function () {
+      const target = document.getElementById(this.value);
+      if (target) {
+        target.scrollIntoView({ behavior: "smooth" });
+      }
+    });
+  }
+
+</script>
+
+
 </body>
 
 </html>

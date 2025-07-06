@@ -2,9 +2,12 @@ async function home() {
     const homeText = document.getElementById("main");
     let texte = await (await fetch("../textes/home.txt")).text();
     homeText.innerHTML = texte;
+
+    document.getElementById("MenuScrollEntier").classList.add("hide");
 };
 
 async function constitution() {
+    document.getElementById("MenuScrollEntier").classList.remove("hide");
     const constitutionText = document.getElementById("main");
     let texte = "<section class=\"article-content\"><h2>Texte de la Constitution</h2><p id=\"constitution-text\">"
     texte = texte + await (await fetch("../textes/constitution.txt")).text();
@@ -28,9 +31,12 @@ async function constitution() {
 
     texte = texte.replace(/(\n)/g, '<br>');
     constitutionText.innerHTML = texte;
+
+    genererMenuDeroulant();
 };
 
 async function code_de_l_education() {
+    document.getElementById("MenuScrollEntier").classList.remove("hide");
     const codeText = document.getElementById("main");
     let texte = "<section class=\"article-content\"><h2>Texte du Code de l'Éducation</h2><p id=\"code-text\">"
     texte = texte + await (await fetch("../textes/code-de-l-education.txt")).text();
@@ -54,6 +60,8 @@ async function code_de_l_education() {
 
     texte = texte.replace(/(\n)/g, "<br>");
     codeText.innerHTML = texte;
+
+    genererMenuDeroulant();
 };
 
 
