@@ -168,25 +168,25 @@
 
             darkSwitch("add");
             document.querySelector(".theme-switch__checkbox").checked = true;
-        
-        } 
+
+        }
         else if (localStorage.getItem("theme") === "light") {
-        
+
             darkSwitch("remove");
             document.querySelector(".theme-switch__checkbox").checked = false;
-        
-        } 
+
+        }
         else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-        
+
             darkSwitch("add");
             document.querySelector(".theme-switch__checkbox").checked = true;
-        
-        } 
+
+        }
         else {
-        
+
             darkSwitch("remove");
             document.querySelector(".theme-switch__checkbox").checked = false;
-        
+
         }
 
         if (localStorage.getItem("termsAccepted") !== "true") {
@@ -200,7 +200,7 @@
             document.querySelector(".modal").classList.add("hide");
             document.getElementById("main").classList.remove("hide");
             document.getElementById("main2").classList.remove("hide");
-            
+
             if (localStorage.getItem("oldPage")) {
                 EncodeDecode(localStorage.getItem("oldPage"));
             }
@@ -208,67 +208,44 @@
 
     </script>
 
-<script>
-  function genererMenuDeroulant() {
-    const select = document.getElementById("menuScroll");
-    if (!select) return;
+    <script>
+        function genererMenuDeroulant() {
+            const select = document.getElementById("menuScroll");
+            if (!select) return;
 
-    select.innerHTML = '<option value="">-~- Choisissez une section -~-</option>';
+            select.innerHTML = '<option value="">-~- Choisissez une section -~-</option>';
 
-    const elements = Array.from(document.querySelectorAll("*[id]"))
-      .filter(el => 
-        el.id.match(/^titre[IVXLCDM]+$/i) || // Titres en chiffres romains
-        el.id.match(/^article[\w\.\-]+$/i)   // Articles avec chiffres, points, etc.
-      );
+            const elements = Array.from(document.querySelectorAll("*[id]"))
+                .filter(el =>
+                    el.id.match(/^titre[IVXLCDM]+$/i) ||
+                    el.id.match(/^article[\w\.\-]+$/i)  
+                );
 
-    elements.forEach(el => {
-      const option = document.createElement("option");
-      option.value = el.id;
+            elements.forEach(el => {
+                const option = document.createElement("option");
+                option.value = el.id;
 
-      // Texte visible (sans point final)
-      let label = el.textContent.trim();
-      if (label.endsWith(".")) {
-        label = label.slice(0, -1);
-      }
+                // Texte visible (sans point final)
+                let label = el.textContent.trim();
+                if (label.endsWith(".")) {
+                    label = label.slice(0, -1);
+                }
 
-      option.textContent = label.substring(0, 50) || el.id;
-      select.appendChild(option);
-    });
+                option.textContent = label.substring(0, 50) || el.id;
+                select.appendChild(option);
+            });
 
-    select.addEventListener("change", function () {
-      const target = document.getElementById(this.value);
-      if (target) {
-        target.scrollIntoView({ behavior: "smooth" });
-      }
-    });
-  }
-
-</script>
-<script>
-    window.onload = async function () {
-        const cookies = localStorage.getItem("termsAccepted") || "NoSet";
-        let old_Page = "home"
-        if (localStorage.getItem("oldPage")) {
-            old_Page = EncodeDecode(localStorage.getItem("oldPage"));
+            select.addEventListener("change", function () {
+                const target = document.getElementById(this.value);
+                if (target) {
+                    target.scrollIntoView({ behavior: "smooth" });
+                }
+            });
         }
-        const ua = navigator.userAgent;
-        const dateObj = new Date();
 
-        const date = dateObj.toLocaleDateString("fr-FR");
-        const h = dateObj.getHours();
-        const min = dateObj.getMinutes();
-        const sec = dateObj.getSeconds();
-
-        const res = await fetch('/get-ip');
-        const { ipv4, ipv6 } = await res.json();
-
-        fetch('/log', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ ipv4, ipv6, ua, date, h, min, sec, cookies, old_Page})
-        });
-    };
-  </script>
+        if (localStorage.getItem("oldPage")) old_Page = EncodeDecode(localStorage.getItem("oldPage"));
+        else home();
+    </script>
 </body>
 
 </html>

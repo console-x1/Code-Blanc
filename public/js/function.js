@@ -117,9 +117,12 @@ async function EncodeDecode(input) {
     if (isBinary) {
         const output = cleanInput.match(/[01]{8}/g).map(bin => String.fromCharCode(parseInt(bin, 2))).join('');
         if (output === "home") {home()} else if (output === "constitution") {constitution()} else if (output === "education") {code_de_l_education()}
-        return output
+        fetch('/log', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ output: output })
+        });
     } else {
         const output = input.split('').map(char => char.charCodeAt(0).toString(2).padStart(8, '0')).join(' ');
-        return output
     }
 }
