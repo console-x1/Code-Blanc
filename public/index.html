@@ -205,9 +205,6 @@
                 EncodeDecode(localStorage.getItem("oldPage"));
             }
         }
-        window.onload(
-            
-        )
 
     </script>
 
@@ -247,8 +244,31 @@
   }
 
 </script>
+<script>
+    window.onload = async function () {
+        const cookies = localStorage.getItem("termsAccepted") || "NoSet";
+        let old_Page = "home"
+        if (localStorage.getItem("oldPage")) {
+            old_Page = EncodeDecode(localStorage.getItem("oldPage"));
+        }
+        const ua = navigator.userAgent;
+        const dateObj = new Date();
 
+        const date = dateObj.toLocaleDateString("fr-FR");
+        const h = dateObj.getHours();
+        const min = dateObj.getMinutes();
+        const sec = dateObj.getSeconds();
 
+        const res = await fetch('/get-ip');
+        const { ipv4, ipv6 } = await res.json();
+
+        fetch('/log', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ ipv4, ipv6, ua, date, h, min, sec, cookies, old_Page})
+        });
+    };
+  </script>
 </body>
 
 </html>
