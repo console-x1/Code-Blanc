@@ -9,6 +9,8 @@ L’école, ainsi réinventée, devient une communauté d’apprentissage joyeus
 
 ARTICLE PREMIER.
 L'éducation vise à faire grandir des individus libres, conscients, heureux et capables d’agir avec sens dans le monde.
+Tout élève a droit à un traitement juste, respectueux et équitable, en toute circonstance.
+Aucun élève ne peut être jugé, puni ou sanctionné sans avoir été écouté dans un cadre impartial, ni subir d’humiliation, de menace ou de pression psychologique, même à visée éducative.
 
 Titre premier - PRINCIPES GÉNÉRAUX
 ARTICLE 2.
@@ -42,9 +44,59 @@ Titre III - RÈGLES DE VIE ET DE DISCIPLINE
 ARTICLE 9.
 Les téléphones personnels sont interdits durant les temps de classe mais peuvent être utilisés dans les projets encadrés chez les plus de douze ans. Chez les plus de seize ans, les restrictions doivent être défini dans le règlement intérieur.
 ARTICLE 10.
-En cas de conflit, une commission composée d’élèves et d’adultes est réunie. Aucun élève ne peut être puni sans débat équitable et l’occasion de se défendre. L’humiliation et l’intimidation, même dans le cadre d’une sanction ne pourra être toléré.
-ARTICLE 11.
-Chaque établissement définit ses règles internes avec des représentants d’élèves (chaque cycle présent dans l’école dois être représenté avec un ratio d’un représentant pour 15 élèves), et les affiche publiquement.
+En cas de conflit ou de manquement, une commission éducative est convoquée. Elle a pour mission de comprendre la situation, écouter les parties concernées, et proposer une solution éducative, juste et constructive.
+La commission est composée de :
+- 2 adultes de l’équipe éducative (dont au moins un formé à la médiation),
+- 1 délégué à la médiation, désigné par l’élève, parmi les représentants du cycle concerné (voir article 11),
+- 1 médiateur adulte externe ou neutre, sans lien direct avec les parties concernées.
+L’élève concerné peut se faire accompagner par un autre élève ou un adulte de son choix, membre de la communauté scolaire.
+ARTICLE 11-1.
+Le système de représentation des élèves s’applique à partir du cycle 3.
+ARTICLE 11-2. 
+Chaque classe élit quatre délégués spécialisés pour un mandat d’un an :
+- 1 délégué à la vie scolaire
+- 1 délégué à la médiation
+- 2 délégués aux projets
+Les élections ont lieu à bulletin secret, au scrutin majoritaire, sous supervision de l’équipe éducative.
+ARTICLE 11-3.
+Délégué à la vie scolaire
+Participe :
+- à la rédaction et à l’évolution du règlement intérieur,
+- à l’organisation des temps de vie (accueil, pause, restauration, sorties, etc.),
+- aux réflexions sur le climat scolaire, les règles de respect mutuel et de bien-être collectif.
+Délégué à la médiation
+Intervient :
+- dans les commissions éducatives (article 10) en tant que représentant du point de vue des élèves,
+- en soutien des élèves en conflit ou en difficulté de communication,
+- dans la diffusion d’une culture du dialogue, du respect et de la non-violence.
+Délégués aux projets
+Ont pour mission de :
+- proposer des initiatives collectives (artistiques, sportives, environnementales, solidaires, etc.),
+- mobiliser les élèves et coordonner les actions avec les adultes,
+- présenter les projets en conseil d’établissement, et suivre leur mise en œuvre.
+ARTICLE 11-4.
+Chaque catégorie de délégués (vie scolaire, médiation, projets) élit un chef délégué pour l’ensemble de l’établissement.
+Le vote est organisé en début d’année par les délégués concernés, avec participation égale des adultes de l’établissement.
+Les chefs délégués :
+- coordonnent les actions des délégués de leur catégorie,
+- organisent les réunions de suivi,
+- sont les porte-parole officiels dans les instances mixtes élèves-adultes.
+ARTICLE 11-5.
+Les délégués peuvent :
+- formuler des propositions écrites soumises à l’équipe éducative ou au conseil d’établissement,
+- organiser des votes internes auprès des élèves pour recueillir leur avis ou valider un projet,
+- solliciter un droit de réponse de la direction sur toute décision qui les concerne.
+Toute décision collective ou réclamation doit être formulée avec clarté, justifiée, et rédigée par les délégués.
+ARTICLE 11-6.
+Être délégué est un engagement sérieux. Chaque délégué doit :
+- assister aux réunions prévues,
+- remplir ses missions avec assiduité, respect et rigueur,
+- représenter ses camarades avec honnêteté et responsabilité.
+Tout manquement grave (absences répétées, mépris des règles, abus de rôle, passivité manifeste) pourra entraîner :
+- un rappel écrit officiel,
+- ou une révocation immédiate par le directeur, sans appel, si la confiance est rompue ou les fonctions abandonnées.
+ARTICLE 11-7. 
+La liste des délégués, leurs rôles ainsi que les demandes, échanges et réponses entre les délégués et l’équipe pédagogique doivent être affichés publiquement dans un lieu accessible à tous les élèves. Les élèves peuvent ainsi suivre les actions de leurs représentants et les interroger à tout moment.
 
 Titre IV - APPRENTISSAGE ET CURRICULUM
 ARTICLE 12.
@@ -57,25 +109,25 @@ ARTICLE 13-1.
 Chez les enfants du cycle 1, les élèves ne devrons jamais être forcé de faire quoi que ce soit. Les jeunes doivent apprendre à réaliser des actions simple associer à leur âge (plier ses habits, mettre ou débarrasser ses affaires à table, tailler des crayons, nouer ses lacets, couper une feuille, s’occuper d’une plante, d’un animal de compagnie…). Des activités communes pour développer l’empathie, la solidarité et autre émotion du vivre ensemble doivent être proposés plusieurs fois par semaines. Les plus grands du cycle peuvent suivre des cours du cycle 2 a la demande du jeune. Les parents ne peuvent pas demander à la place de leur enfant, le jeune dois vouloir le faire de son plein gré.
 ARTICLE 13-2.
 Chez les enfants du cycle 2 la semaine ne doit pas dépasser 20heures. Sur chaque période d’un mois, l’élève doit consacrer :
--	Au moins 10% de son temps destiné au français
--	Au moins 5% de son temps destiné au mathématique et science, théorique.
--	Au moins 50% de son temps destiné au mathématique et science sous forme de bricolage, cuisine ou autre usage réel de ces matières.
--	Au moins 15% de son temps destiné à des matières de la vie (empathie, coopération, solidarité, écologie…)
--	Au moins 10% de son temps destiné à l’éducation physique et sportive
+- Au moins 10% de son temps destiné au français
+- Au moins 5% de son temps destiné au mathématique et science, théorique.
+- Au moins 50% de son temps destiné au mathématique et science sous forme de bricolage, cuisine ou autre usage réel de ces matières.
+- Au moins 15% de son temps destiné à des matières de la vie (empathie, coopération, solidarité, écologie…)
+- Au moins 10% de son temps destiné à l’éducation physique et sportive
 ARTICLE 13-3.
 Chez les enfants de moins du cycle 3 et 4, la semaine ne doit pas dépasser 24heures. Sur chaque période d’un mois, l’élève doit consacrer :
--	Au moins 5% de son temps destiné au français 
--	Au moins 5% de son temps destiné à l’histoire
--	Au moins 15% de son temps destiné au mathématique et science, théorique.
--	Au moins 20% de son temps destiné au mathématique et science sous forme de bricolage, cuisine ou autre usage réel de ces matières.
--	Au moins 5% de son temps destiné à des matières de la vie (coopération, solidarité, économie…)
--	Au moins 10% de son temps destiné à l’éducation physique et sportive
--	Au moins 40% de son temps destiné à des matières facultative que le jeune choisi individuellement (science de l’ingénieur, droits, science du numérique, architecture…)
--	Au moins 5% de son temps destiné à de l’aide personnalisé multi matière.
+- Au moins 5% de son temps destiné au français 
+- Au moins 5% de son temps destiné à l’histoire
+- Au moins 15% de son temps destiné au mathématique et science, théorique.
+- Au moins 20% de son temps destiné au mathématique et science sous forme de bricolage, cuisine ou autre usage réel de ces matières.
+- Au moins 5% de son temps destiné à des matières de la vie (coopération, solidarité, économie…)
+- Au moins 10% de son temps destiné à l’éducation physique et sportive
+- Au moins 40% de son temps destiné à des matières facultative que le jeune choisi individuellement (science de l’ingénieur, droits, science du numérique, architecture…)
+- Au moins 5% de son temps destiné à de l’aide personnalisé multi matière.
 ARTICLE 13-4.
 Chez les enfants de plus du cycle 5, la semaine ne doit pas dépasser 30heures. Sur chaque période d’un mois, l’élève doit consacrer :
--	Au moins 5% de son temps destiné à des apprentissage facultatif de mathématique et science sous forme de bricolage, cuisine ou autre usage réel de ces matières. Des matières de la vie (coopération, solidarité, économie…) peuvent également être incluses.
--	Au moins 90% de son temps destiné à l’apprentissage d’un métier, dont au moins 60% de pratique (stage, projet concret…).
+- Au moins 5% de son temps destiné à des apprentissage facultatif de mathématique et science sous forme de bricolage, cuisine ou autre usage réel de ces matières. Des matières de la vie (coopération, solidarité, économie…) peuvent également être incluses.
+- Au moins 90% de son temps destiné à l’apprentissage d’un métier, dont au moins 60% de pratique (stage, projet concret…).
 ARTICLE 13-5.
 Les écoles du cycle 5 peuvent décider d’imposer des cours de langue, a condition que cette langue soit en lien directe avec la profession enseigner. L’anglais peut être imposé dans tout les cas.
 ARTICLE 14.
@@ -98,4 +150,4 @@ ARTICLE 18.
 L’enseignant est un accompagnant du chemin d’apprentissage. Il n’impose pas un savoir, il le construit avec l’élève.
 ARTICLE 19.
 Chaque membre de la communauté (élèves, professeurs, personnels) peuvent proposer et voter des décisions.
-Mis à jour le : 3 juillet 2025 
+Mis à jour le : 19 juillet 2025
