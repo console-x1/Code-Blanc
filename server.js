@@ -76,5 +76,5 @@ Page : ${old_Page}
 
 
 app.listen(PORT, () => {
-  console.log(`Serveur Node.js - Site Ensemble-pour-la-France lancé sur le port n°${PORT}`.blue);
+  console.log(`Serveur Node.js - Site Code Blanc lancé sur le port n°${PORT}`.blue);
 }); 
