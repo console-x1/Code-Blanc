@@ -32,6 +32,14 @@ async function constitution() {
     texte = texte.replace(/(Mis à jour le : [0-9]+ [a-zéû]+ [0-9]+)./, '<br><em>$1</em>');
 
     texte = texte.replace(/(\n)/g, '<br>');
+
+    // Styliser les listes à puces commençant par "- "
+    texte = texte.replace(/(<br>|^)- ([^\n<]+)/g, function(match, br, item) {
+        return (br ? br : '') + '<ul><li>' + item + '</li></ul>';
+    });
+    // Fusionner les <ul> consécutifs
+    texte = texte.replace(/<\/ul>(?:<br>)?<ul>/g, '');
+
     constitutionText.innerHTML = texte;
 
     genererMenuDeroulant();
@@ -62,11 +70,16 @@ async function code_de_l_education() {
     texte = texte.replace(/(Mis à jour le : [0-9]+ [a-zéû]+ [0-9]+)./, '<br><em>$1</em>');
 
     texte = texte.replace(/(\n)/g, "<br>");
+
+    texte = texte.replace(/(<br>|^)- ([^\n<]+)/g, function(match, br, item) {
+        return (br ? br : '') + '<ul><li>' + item + '</li></ul>';
+    });
+    texte = texte.replace(/<\/ul>(?:<br>)?<ul>/g, '');
+
     codeText.innerHTML = texte;
 
     genererMenuDeroulant();
 };
-
 
 async function toggleTheme() {
     if (localStorage.getItem('termsAccepted') === 'true') localStorage.setItem("theme", localStorage.getItem("theme") === "dark" ? "light" : "dark");
